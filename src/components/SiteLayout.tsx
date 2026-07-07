@@ -93,6 +93,8 @@ export function SiteFooter() {
           <a href="mailto:info@el-degaeas.com" className="link-underline mt-1 inline-block">
             info@el-degaeas.com
           </a>
+
+          {/* Testing */}
         </div>
         <div className="text-sm text-primary-foreground/80">
           <p className="eyebrow mb-3 text-gold">Follow</p>
