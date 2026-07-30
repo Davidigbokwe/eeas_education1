@@ -81,7 +81,7 @@ export function SiteFooter() {
         <div>
           <p className="font-serif text-2xl">EEAS</p>
           <p className="mt-3 max-w-xs text-sm text-primary-foreground/70">
-            An ICEF-certified education and visa advisory agency guiding
+            An ICEF-accredicated education and visa advisory agency guiding
             students from Nigeria to the world's best schools.
           </p>
         </div>
@@ -114,7 +114,7 @@ export function SiteFooter() {
       <div className="border-t border-primary-foreground/10">
         <div className="container-x flex flex-col items-start justify-between gap-2 py-6 text-xs text-primary-foreground/50 md:flex-row md:items-center">
           <p>© {new Date().getFullYear()} EEAS. All rights reserved.</p>
-          <p>ICEF Certified · Lagos, Nigeria</p>
+          <p>ICEF accredicated · Lagos, Nigeria</p>
         </div>
       </div>
     </footer>

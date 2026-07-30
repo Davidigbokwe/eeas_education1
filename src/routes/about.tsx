@@ -6,14 +6,14 @@ import { ArrowUpRight, Award, Users, Globe } from "lucide-react";
 export const Route = createFileRoute("/about")({
   head: () => ({
     meta: [
-      { title: "About EEAS: ICEF Certified Study Abroad Agency" },
+      { title: "About EEAS: ICEF accredicated Study Abroad Agency" },
       {
         name: "description",
         content:
-          "EEAS is an ICEF-certified education and visa advisory agency in Nigeria helping students secure admission and visas overseas.",
+          "EEAS is an ICEF-accredicated education and visa advisory agency in Nigeria helping students secure admission and visas overseas.",
       },
       { property: "og:title", content: "About EEAS" },
-      { property: "og:description", content: "ICEF-certified education and visa advisory agency in Nigeria." },
+      { property: "og:description", content: "ICEF-accredicated education and visa advisory agency in Nigeria." },
     ],
   }),
   component: AboutPage,
@@ -29,7 +29,7 @@ function AboutPage() {
             Guiding ambitious students to the world's most respected schools.
           </h1>
           <p className="mt-8 max-w-2xl text-lg text-muted-foreground">
-            EEAS is an ICEF-certified education and visa advisory agency based in
+            EEAS is an ICEF-accredicated education and visa advisory agency based in
             Lagos, Nigeria. We're committed to giving expert advice on every
             aspect of international education.
           </p>
@@ -80,14 +80,14 @@ function AboutPage() {
         <div className="container-x">
           <p className="eyebrow">Why EEAS</p>
           <h2 className="mt-4 max-w-3xl font-serif text-4xl md:text-5xl">
-            Certified expertise. Nigerian roots. Global reach.
+            accredicated expertise. Nigerian roots. Global reach.
           </h2>
 
           <div className="mt-16 grid gap-10 md:grid-cols-3">
             {[
               {
                 icon: Award,
-                t: "ICEF Certified",
+                t: "ICEF accredicated",
                  d: "Recognized by the global body of education agents, a mark of ethical, professional practice.",
               },
               {

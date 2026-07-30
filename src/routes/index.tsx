@@ -15,7 +15,7 @@ function HomePage() {
       <section className="relative overflow-hidden bg-cream">
         <div className="container-x grid gap-12 pt-16 pb-24 md:grid-cols-12 md:gap-8 md:pt-24 md:pb-32">
           <div className="md:col-span-6 md:pt-8">
-            <p className="eyebrow">ICEF Certified · Est. Lagos</p>
+            <p className="eyebrow">ICEF accredicated · Est. Lagos</p>
             <h1 className="mt-6 font-serif text-5xl leading-[1.02] text-foreground md:text-7xl">
               Your passage to the world's best classrooms.
             </h1>
