@@ -13,7 +13,7 @@ export const Route = createFileRoute("/contact")({
           "Get in touch with EEAS. Visit us at 44 Randle Avenue, Surulere, Lagos or reach us by phone and email.",
       },
       { property: "og:title", content: "Contact EEAS" },
-      { property: "og:description", content: "Speak to an ICEF-accredicated study abroad advisor in Lagos." },
+      { property: "og:description", content: "Speak to an ICEF-accredited study abroad advisor in Lagos." },
     ],
   }),
   component: ContactPage,
