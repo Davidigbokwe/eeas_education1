@@ -1,6 +1,22 @@
 import { Link } from "@tanstack/react-router";
-import { type ReactNode, useState } from "react";
+import { type ReactNode, useEffect, useState } from "react";
 import { Menu, X, Instagram, Facebook } from "lucide-react";
+
+export function IasBadge() {
+  useEffect(() => {
+    const script = document.createElement("script");
+    script.src = "https://www-cdn.icef.com/scripts/iasbadgeid.js";
+    script.async = true;
+    script.defer = true;
+    script.crossOrigin = "anonymous";
+    document.body.appendChild(script);
+    return () => {
+      script.remove();
+    };
+  }, []);
+
+  return <span id="iasBadge" data-account-id="4779" />;
+}
 
 const nav = [
   { to: "/", label: "Home" },
@@ -93,8 +109,6 @@ export function SiteFooter() {
           <a href="mailto:info@el-degaeas.com" className="link-underline mt-1 inline-block">
             info@el-degaeas.com
           </a>
-
-          {/* Testing */}
         </div>
         <div className="text-sm text-primary-foreground/80">
           <p className="eyebrow mb-3 text-gold">Follow</p>

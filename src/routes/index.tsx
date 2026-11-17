@@ -1,6 +1,6 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { ArrowUpRight, GraduationCap, Plane, Compass } from "lucide-react";
-import { SiteLayout } from "@/components/SiteLayout";
+import { SiteLayout, IasBadge } from "@/components/SiteLayout";
 import heroImg from "@/assets/hero.jpg";
 import advisoryImg from "@/assets/advisory.jpg";
 
@@ -60,6 +60,9 @@ function HomePage() {
                 alt="Student on a university campus at golden hour"
                 className="aspect-[4/5] w-full rounded-sm object-cover shadow-2xl"
               />
+              <div className="absolute -right-4 -top-4 hidden md:block">
+                <IasBadge />
+              </div>
               <div className="absolute -bottom-6 -left-6 hidden max-w-[220px] rounded-sm bg-background p-5 shadow-xl md:block">
                 <p className="eyebrow text-gold">The promise</p>
                 <p className="mt-2 font-serif text-lg leading-snug">
